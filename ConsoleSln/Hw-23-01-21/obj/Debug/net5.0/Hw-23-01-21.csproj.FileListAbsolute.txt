@@ -1,0 +1,16 @@
+E:\Alif_Projects\Alif_HomeWorks\ConsoleSln\Hw-23-01-21\bin\Debug\net5.0\Hw-23-01-21.exe
+E:\Alif_Projects\Alif_HomeWorks\ConsoleSln\Hw-23-01-21\bin\Debug\net5.0\Hw-23-01-21.deps.json
+E:\Alif_Projects\Alif_HomeWorks\ConsoleSln\Hw-23-01-21\bin\Debug\net5.0\Hw-23-01-21.runtimeconfig.json
+E:\Alif_Projects\Alif_HomeWorks\ConsoleSln\Hw-23-01-21\bin\Debug\net5.0\Hw-23-01-21.runtimeconfig.dev.json
+E:\Alif_Projects\Alif_HomeWorks\ConsoleSln\Hw-23-01-21\bin\Debug\net5.0\Hw-23-01-21.dll
+E:\Alif_Projects\Alif_HomeWorks\ConsoleSln\Hw-23-01-21\bin\Debug\net5.0\ref\Hw-23-01-21.dll
+E:\Alif_Projects\Alif_HomeWorks\ConsoleSln\Hw-23-01-21\bin\Debug\net5.0\Hw-23-01-21.pdb
+E:\Alif_Projects\Alif_HomeWorks\ConsoleSln\Hw-23-01-21\obj\Debug\net5.0\Hw-23-01-21.csprojAssemblyReference.cache
+E:\Alif_Projects\Alif_HomeWorks\ConsoleSln\Hw-23-01-21\obj\Debug\net5.0\Hw-23-01-21.GeneratedMSBuildEditorConfig.editorconfig
+E:\Alif_Projects\Alif_HomeWorks\ConsoleSln\Hw-23-01-21\obj\Debug\net5.0\Hw-23-01-21.AssemblyInfoInputs.cache
+E:\Alif_Projects\Alif_HomeWorks\ConsoleSln\Hw-23-01-21\obj\Debug\net5.0\Hw-23-01-21.AssemblyInfo.cs
+E:\Alif_Projects\Alif_HomeWorks\ConsoleSln\Hw-23-01-21\obj\Debug\net5.0\Hw-23-01-21.csproj.CoreCompileInputs.cache
+E:\Alif_Projects\Alif_HomeWorks\ConsoleSln\Hw-23-01-21\obj\Debug\net5.0\Hw-23-01-21.dll
+E:\Alif_Projects\Alif_HomeWorks\ConsoleSln\Hw-23-01-21\obj\Debug\net5.0\ref\Hw-23-01-21.dll
+E:\Alif_Projects\Alif_HomeWorks\ConsoleSln\Hw-23-01-21\obj\Debug\net5.0\Hw-23-01-21.pdb
+E:\Alif_Projects\Alif_HomeWorks\ConsoleSln\Hw-23-01-21\obj\Debug\net5.0\Hw-23-01-21.genruntimeconfig.cache
