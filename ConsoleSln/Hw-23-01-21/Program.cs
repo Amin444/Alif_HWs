@@ -57,6 +57,73 @@ namespace Hw_23_01_21
                     }
                   System.Console.WriteLine();
                 }*/
+
+                //Прямоугольный треугольник
+
+                 /* for (int i = 0; i < 10; i++)
+                  {
+                    for (int g = 0; g < i; g++)
+                    {
+                        System.Console.Write("* ");
+                    }
+                        
+                    System.Console.WriteLine("");
+                  } */
+
+                  //Равнобедреный треугольник
+
+                 int wq =8, sd=0;
+                  for (int i = wq; i > 0; i--)
+                  {
+                      sd++;
+                      for (int j = wq; j >= 0; j++)
+                      {
+                      System.Console.Write(" ");
+                          
+                      }
+                      wq--;
+                      for (int z = 0; z < sd; z++)
+                      {
+                          System.Console.Write("* ");
+                      }
+                      System.Console.WriteLine();
+                  }
+
+                  // Ромб
+
+                /*   int   g = 6;
+                   int  q = 0;
+            for (int i = g; i >= 0; i--)
+            {
+                q++;
+                for (int x = g; x >= 0; x--)
+                {
+                    Console.Write(" ");
+                }
+                g--;
+                 for (int y = 0; y < q; y++)
+                {
+                    Console.Write("* ");
+                 }
+                 System.Console.WriteLine();
+            }
+            g = 6;
+            q = 0;
+             for (int i = 0; i <= 5; i++)
+             {
+                 q++;
+                 for (int x = 0; x <= q; x++)
+                {
+                     Console.Write(" ");
+                 }
+                 g--;
+                 for (int y = g; y >= 0; y--)
+                 {
+                    Console.Write("* ");
+                }
+                 System.Console.WriteLine();
+              }*/
+
                 ////////////////////////////////////////////////////////////////////////////////////////////////////////
          
                 //HW 2
@@ -94,7 +161,7 @@ namespace Hw_23_01_21
                 ///////////////////////////////////////////////////////////////////////
 
                 //task 3
-
+              /*  int g=0;
                 System.Console.Write("Enter the number : ");
                 int num =int.Parse(Console.ReadLine());
                 int[] arrNum = new int[num];
@@ -106,12 +173,19 @@ namespace Hw_23_01_21
                 }
                 System.Console.Write("Enter the index : ");
                 int index =int.Parse(Console.ReadLine());
+                System.Console.Write("Enter the Count : ");
                 int count = int.Parse(Console.ReadLine());
-               for (int i = index; i < arrNum.Length; i++)
+                int[] arrCount = new int[count];
+               for (int i = index; i < count +  index; i++)
                {
-                  arrNum[i] =ran.Next(1000);
-                  System.Console.WriteLine(arrNum[i]);
+                      if(i <=arrNum.Length-1){arrCount[g]=arrNum[i];g++;}
+                      else{arrCount[g]=1; }
                }
+
+               foreach (var item in arrCount)
+               {
+                   System.Console.WriteLine(item);
+               } */
         }
     }
 }
