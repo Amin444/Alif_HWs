@@ -48,13 +48,14 @@ namespace Hw_23_01_21
             ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
                   //task 2
-               /* for (int i = 0; i < 10; i++)
+                  //Прямоугольник
+               /* for (int i = 0; i <= 10; i++)
                 {
-                    for (int g = 0; g < i; g++)
+                    for (int g = 0; g < 18; g++)
                     {
-                        System.Console.Write("*" + " ");
+                        System.Console.Write( "* " );
                     }
-                  System.Console.Write("*\n");
+                  System.Console.WriteLine();
                 }*/
                 ////////////////////////////////////////////////////////////////////////////////////////////////////////
          
@@ -90,7 +91,27 @@ namespace Hw_23_01_21
                     System.Console.WriteLine(n[i]);
                 }*/
 
-                
+                ///////////////////////////////////////////////////////////////////////
+
+                //task 3
+
+                System.Console.Write("Enter the number : ");
+                int num =int.Parse(Console.ReadLine());
+                int[] arrNum = new int[num];
+                  var ran = new Random();
+                for (int i = 0; i < arrNum.Length; i++)
+                {
+                   arrNum[i]= ran.Next(1000);
+                    System.Console.WriteLine(arrNum[i]);
+                }
+                System.Console.Write("Enter the index : ");
+                int index =int.Parse(Console.ReadLine());
+                int count = int.Parse(Console.ReadLine());
+               for (int i = index; i < arrNum.Length; i++)
+               {
+                  arrNum[i] =ran.Next(1000);
+                  System.Console.WriteLine(arrNum[i]);
+               }
         }
     }
 }
