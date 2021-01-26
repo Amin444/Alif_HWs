@@ -72,7 +72,7 @@ namespace Hw_23_01_21
 
                   //Равнобедреный треугольник
 
-                 int wq =8, sd=0;
+                 /*int wq =8, sd=0;
                   for (int i = wq; i > 0; i--)
                   {
                       sd++;
@@ -87,7 +87,7 @@ namespace Hw_23_01_21
                           System.Console.Write("* ");
                       }
                       System.Console.WriteLine();
-                  }
+                  }*/
 
                   // Ромб
 
@@ -161,7 +161,7 @@ namespace Hw_23_01_21
                 ///////////////////////////////////////////////////////////////////////
 
                 //task 3
-              /*  int g=0;
+                int g=0;
                 System.Console.Write("Enter the number : ");
                 int num =int.Parse(Console.ReadLine());
                 int[] arrNum = new int[num];
@@ -176,16 +176,21 @@ namespace Hw_23_01_21
                 System.Console.Write("Enter the Count : ");
                 int count = int.Parse(Console.ReadLine());
                 int[] arrCount = new int[count];
-               for (int i = index; i < count +  index; i++)
+               for (int i = index; i <= count +  index; i++)
                {
                       if(i <=arrNum.Length-1){arrCount[g]=arrNum[i];g++;}
-                      else{arrCount[g]=1; }
+            
                }
 
                foreach (var item in arrCount)
                {
-                   System.Console.WriteLine(item);
-               } */
+                 if(item>0){ System.Console.WriteLine(item);}
+                  else{System.Console.WriteLine(1);}
+                  
+               } 
+                      
+            
+                
         }
     }
 }
