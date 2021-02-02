@@ -10,27 +10,20 @@ namespace HW_26_01021
          /*   System.Console.Write("Enter the side1 and side2 : ");
             var rec =new Rectangle(double.Parse(Console.ReadLine()),double.Parse(Console.ReadLine()));
            System.Console.WriteLine($"Area : {rec.AreaCalculator()}");
-           System.Console.WriteLine($"Perimeter {rec.PerimeterCalculator()}");
+           System.Console.WriteLine($"Perimeter {rec.PerimeterCalculator()}");*/
            /////////////////////////////////////////////////////////////////////////////////////
 
-            //task 2
-
-             var T =new Title();
-             var A =new Author();
-             var C =new Content();
-          
-           T.show();
-           Console.ForegroundColor=ConsoleColor.White;
-           A.show();
-           Console.ForegroundColor=ConsoleColor.White;
-           C.show();
-           Console.ForegroundColor=ConsoleColor.White;
+                 //task 2
+            
+                    var b = new BooK();
+                    b.shows();
+                    
            
 
             /////////////////////////////////////////////////////////////////////////////////////////////////
 
                 //task 3
-                      System.Console.WriteLine("=========================================================");
+                 /*     System.Console.WriteLine("=========================================================");
                       System.Console.WriteLine("if you want to know that can Phone write 'S' ");
                     string st =Console.ReadLine();
                     if(st.ToUpper().Equals("S"))
@@ -51,8 +44,8 @@ namespace HW_26_01021
 
                     // task 2
 
-                     var em =new Employee();
-                     em.Allsalery();
+                   //  var em =new Employee();
+                   //  em.Allsalery();
                        
                    
         }
@@ -89,7 +82,16 @@ namespace HW_26_01021
 
        class BooK
        {
+           public void shows()
+           {
+             var T =new Title();
+             var A =new Author();
+             var C =new Content();
           
+           T.show();
+           A.show();
+           C.show();
+           }
        }
 
        
@@ -102,6 +104,7 @@ namespace HW_26_01021
                     bigWords =Console.ReadLine();  
                    Console.ForegroundColor =ConsoleColor.Green;
                    System.Console.WriteLine($"Title : {bigWords}");
+                    Console.ForegroundColor=ConsoleColor.White;
 
                }
 
@@ -116,6 +119,7 @@ namespace HW_26_01021
                    who =Console.ReadLine();
                    Console.ForegroundColor =ConsoleColor.Yellow;
                    System.Console.WriteLine($"Author : {who}");
+                    Console.ForegroundColor=ConsoleColor.White;
                 }
            }
            class Content
@@ -127,6 +131,7 @@ namespace HW_26_01021
                    what =Console.ReadLine();
                    Console.ForegroundColor =ConsoleColor.Blue;
                     System.Console.WriteLine($"Content : {what}");
+                     Console.ForegroundColor=ConsoleColor.White;
                 }
            }
 
