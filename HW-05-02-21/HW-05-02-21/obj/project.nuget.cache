@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OBjPdKjxLX05QMNx65xfyxZ/q1CBI/BwUwD8gL9ZWnZHZiv8tJfWJQRK29wPfqFJqXbFLjjEUNDsApFGSgJp7Q==",
+  "dgSpecHash": "nq6mt34cz8mFWQK98ZS0ilLrtcKGFu/HUWcYQ4sFjBWblDesbKkMs22OP9xQ+M9auHgafOv9kqs7T9bZ9QPbOQ==",
   "success": true,
-  "projectFilePath": "E:\\Alif_projects\\Alif_HomeWorks\\HW-05-02-21\\HW-05-02-21\\HW-05-02-21.csproj",
+  "projectFilePath": "E:\\Alif_Projects\\Alif_HomeWorks\\HW-05-02-21\\HW-05-02-21\\HW-05-02-21.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.1\\microsoft.data.sqlclient.2.1.1.nupkg.sha512",
