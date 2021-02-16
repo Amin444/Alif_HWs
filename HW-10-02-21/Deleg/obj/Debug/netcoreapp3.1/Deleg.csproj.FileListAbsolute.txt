@@ -1,0 +1,13 @@
+E:\Alif_Projects\Alif_HomeWorks\HW-10-02-21\Deleg\obj\Debug\netcoreapp3.1\Deleg.csprojAssemblyReference.cache
+E:\Alif_Projects\Alif_HomeWorks\HW-10-02-21\Deleg\obj\Debug\netcoreapp3.1\Deleg.AssemblyInfoInputs.cache
+E:\Alif_Projects\Alif_HomeWorks\HW-10-02-21\Deleg\obj\Debug\netcoreapp3.1\Deleg.AssemblyInfo.cs
+E:\Alif_Projects\Alif_HomeWorks\HW-10-02-21\Deleg\obj\Debug\netcoreapp3.1\Deleg.csproj.CoreCompileInputs.cache
+E:\Alif_Projects\Alif_HomeWorks\HW-10-02-21\Deleg\bin\Debug\netcoreapp3.1\Deleg.exe
+E:\Alif_Projects\Alif_HomeWorks\HW-10-02-21\Deleg\bin\Debug\netcoreapp3.1\Deleg.deps.json
+E:\Alif_Projects\Alif_HomeWorks\HW-10-02-21\Deleg\bin\Debug\netcoreapp3.1\Deleg.runtimeconfig.json
+E:\Alif_Projects\Alif_HomeWorks\HW-10-02-21\Deleg\bin\Debug\netcoreapp3.1\Deleg.runtimeconfig.dev.json
+E:\Alif_Projects\Alif_HomeWorks\HW-10-02-21\Deleg\bin\Debug\netcoreapp3.1\Deleg.dll
+E:\Alif_Projects\Alif_HomeWorks\HW-10-02-21\Deleg\bin\Debug\netcoreapp3.1\Deleg.pdb
+E:\Alif_Projects\Alif_HomeWorks\HW-10-02-21\Deleg\obj\Debug\netcoreapp3.1\Deleg.dll
+E:\Alif_Projects\Alif_HomeWorks\HW-10-02-21\Deleg\obj\Debug\netcoreapp3.1\Deleg.pdb
+E:\Alif_Projects\Alif_HomeWorks\HW-10-02-21\Deleg\obj\Debug\netcoreapp3.1\Deleg.genruntimeconfig.cache

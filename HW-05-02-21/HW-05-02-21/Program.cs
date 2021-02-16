@@ -11,7 +11,10 @@ namespace HW_05_02_21
              string ConnString = @"Data source=MACHINE-PGO7H84\SQL2017; initial catalog=People; integrated security=true;";
                     SqlConnection connection = new SqlConnection(ConnString);
                     connection.Open();
-                 
+                    var sa =true;
+                    while(sa)
+                    {
+                 System.Console.WriteLine("Enter the options C->insert R->SelectAll U->Update D->delete S-selectbyId  ex->exit from this program");
                     var choose =Console.ReadLine().ToUpper();
                     switch (choose)
                     {
@@ -20,8 +23,10 @@ namespace HW_05_02_21
                         case "U":{Update();}break;
                         case "D":{Delete();}break;
                         case "S":{SelectById();}break;
-                        
+                        case "ex":{sa=false;}break;
                     }
+                    }
+                    connection.Close();
         }
         public static void SelectAll()
         {
@@ -47,10 +52,13 @@ namespace HW_05_02_21
                     string ConnString = @"Data source=MACHINE-PGO7H84\SQL2017; initial catalog=People; integrated security=true;";
                     SqlConnection connection = new SqlConnection(ConnString);
                     connection.Open();
-
+                    System.Console.Write("Enter the FirstName :");
                     var FirstName = Console.ReadLine();
+                    System.Console.Write("Enter the LastName :");
                     var LastName = Console.ReadLine();
+                    System.Console.Write("Enter the MiddleName :");
                     var MiddleName = Console.ReadLine();
+                    System.Console.Write("Enter the BirthDay :");
                     var BithDate = Console.ReadLine();
 
                     SqlCommand command = connection.CreateCommand();
@@ -76,10 +84,15 @@ namespace HW_05_02_21
                   string ConnString = @"Data source=MACHINE-PGO7H84\SQL2017; initial catalog=People; integrated security=true;";
                     SqlConnection connection = new SqlConnection(ConnString);
                     connection.Open();
+                    System.Console.Write("Enter the FirstName :");
                          var LastName = Console.ReadLine();
+                         System.Console.Write("Enter the FirstName :");
                          var FirstName = Console.ReadLine();
+                         System.Console.Write("Enter the LastName :");
                          var MiddleName = Console.ReadLine();
+                         System.Console.Write("Enter the MiddleName :");
                          var BithDate = Console.ReadLine();
+                         System.Console.Write("Enter the BirhtDay :");
                         var id =int.Parse(Console.ReadLine());
 
                      SqlCommand command = connection.CreateCommand();
@@ -107,6 +120,7 @@ namespace HW_05_02_21
                    string ConnString = @"Data source=MACHINE-PGO7H84\SQL2017; initial catalog=People; integrated security=true;";
                     SqlConnection connection = new SqlConnection(ConnString);
                     connection.Open();
+                    System.Console.Write("Enter the Id that Person of delete :");
                     var id =int.Parse(Console.ReadLine());
                     SqlCommand command = connection.CreateCommand();
                      command.CommandText = $"DELETE from Persons where id ={id};";
@@ -116,31 +130,38 @@ namespace HW_05_02_21
                 {
                     System.Console.WriteLine("deleteing was successfuly!");
                 }
-
+                else{System.Console.WriteLine("Maybe you enter the not correctly id! Please try again");}
             }
+
     
-         public static void SelectById()
-         {
+                public static void SelectById()
+              {
                     string ConnString = @"Data source=MACHINE-PGO7H84\SQL2017; initial catalog=People; integrated security=true;";
                     SqlConnection connection = new SqlConnection(ConnString);
                     connection.Open();
+                    System.Console.Write("Enter the Id that show info :");
                       var id =int.Parse(Console.ReadLine());
                      SqlCommand command = connection.CreateCommand();
                      command.CommandText = $"SELECT * from Persons where id ={id};";
-                
+                        var res = command.ExecuteNonQuery();
+                        if(res>0)
+                        {
                       var reader = command.ExecuteReader();
                         while (reader.Read())
-                    {
+                     {
                          Console.WriteLine($"" +
                         $"Id:{reader["Id"]}, \t" +
                         $"FirstName:{reader["FirstName"]}, \t" +
                         $"LastName:{reader["LastName"]}, \t" +
                         $"MiddleName:{reader["MiddleName"]}, \t" +
                         $"BithDate:{reader["BithDate"]}, \t");
-                    }
-         }
+                      }
+                        }
+                        else{System.Console.WriteLine("Maybe you enter the not correctly id! Please try again");}
+                }
     
     }
-}        
+} 
+      
 
 

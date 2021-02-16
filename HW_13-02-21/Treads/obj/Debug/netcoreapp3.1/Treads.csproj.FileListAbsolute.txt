@@ -1,0 +1,13 @@
+E:\Alif_Projects\Alif_HomeWorks\HW_13-02-21\Treads\bin\Debug\netcoreapp3.1\Treads.exe
+E:\Alif_Projects\Alif_HomeWorks\HW_13-02-21\Treads\bin\Debug\netcoreapp3.1\Treads.deps.json
+E:\Alif_Projects\Alif_HomeWorks\HW_13-02-21\Treads\bin\Debug\netcoreapp3.1\Treads.runtimeconfig.json
+E:\Alif_Projects\Alif_HomeWorks\HW_13-02-21\Treads\bin\Debug\netcoreapp3.1\Treads.runtimeconfig.dev.json
+E:\Alif_Projects\Alif_HomeWorks\HW_13-02-21\Treads\bin\Debug\netcoreapp3.1\Treads.dll
+E:\Alif_Projects\Alif_HomeWorks\HW_13-02-21\Treads\bin\Debug\netcoreapp3.1\Treads.pdb
+E:\Alif_Projects\Alif_HomeWorks\HW_13-02-21\Treads\obj\Debug\netcoreapp3.1\Treads.csprojAssemblyReference.cache
+E:\Alif_Projects\Alif_HomeWorks\HW_13-02-21\Treads\obj\Debug\netcoreapp3.1\Treads.AssemblyInfoInputs.cache
+E:\Alif_Projects\Alif_HomeWorks\HW_13-02-21\Treads\obj\Debug\netcoreapp3.1\Treads.AssemblyInfo.cs
+E:\Alif_Projects\Alif_HomeWorks\HW_13-02-21\Treads\obj\Debug\netcoreapp3.1\Treads.csproj.CoreCompileInputs.cache
+E:\Alif_Projects\Alif_HomeWorks\HW_13-02-21\Treads\obj\Debug\netcoreapp3.1\Treads.dll
+E:\Alif_Projects\Alif_HomeWorks\HW_13-02-21\Treads\obj\Debug\netcoreapp3.1\Treads.pdb
+E:\Alif_Projects\Alif_HomeWorks\HW_13-02-21\Treads\obj\Debug\netcoreapp3.1\Treads.genruntimeconfig.cache
