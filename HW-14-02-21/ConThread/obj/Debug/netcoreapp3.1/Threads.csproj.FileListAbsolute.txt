@@ -1,0 +1,13 @@
+E:\Alif_Projects\Alif_HomeWorks\HW-14-02-21\ConThread\obj\Debug\netcoreapp3.1\Threads.csprojAssemblyReference.cache
+E:\Alif_Projects\Alif_HomeWorks\HW-14-02-21\ConThread\obj\Debug\netcoreapp3.1\Threads.AssemblyInfoInputs.cache
+E:\Alif_Projects\Alif_HomeWorks\HW-14-02-21\ConThread\obj\Debug\netcoreapp3.1\Threads.AssemblyInfo.cs
+E:\Alif_Projects\Alif_HomeWorks\HW-14-02-21\ConThread\obj\Debug\netcoreapp3.1\Threads.csproj.CoreCompileInputs.cache
+E:\Alif_Projects\Alif_HomeWorks\HW-14-02-21\ConThread\bin\Debug\netcoreapp3.1\Threads.exe
+E:\Alif_Projects\Alif_HomeWorks\HW-14-02-21\ConThread\bin\Debug\netcoreapp3.1\Threads.deps.json
+E:\Alif_Projects\Alif_HomeWorks\HW-14-02-21\ConThread\bin\Debug\netcoreapp3.1\Threads.runtimeconfig.json
+E:\Alif_Projects\Alif_HomeWorks\HW-14-02-21\ConThread\bin\Debug\netcoreapp3.1\Threads.runtimeconfig.dev.json
+E:\Alif_Projects\Alif_HomeWorks\HW-14-02-21\ConThread\bin\Debug\netcoreapp3.1\Threads.dll
+E:\Alif_Projects\Alif_HomeWorks\HW-14-02-21\ConThread\bin\Debug\netcoreapp3.1\Threads.pdb
+E:\Alif_Projects\Alif_HomeWorks\HW-14-02-21\ConThread\obj\Debug\netcoreapp3.1\Threads.dll
+E:\Alif_Projects\Alif_HomeWorks\HW-14-02-21\ConThread\obj\Debug\netcoreapp3.1\Threads.pdb
+E:\Alif_Projects\Alif_HomeWorks\HW-14-02-21\ConThread\obj\Debug\netcoreapp3.1\Threads.genruntimeconfig.cache

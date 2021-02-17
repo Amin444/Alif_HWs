@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wcWLzI7b9IGeCzKh9UYCAfCiQwcenZ9S2yvBXFIOJNfaTHihzKrsVwtZqng8n6HtFknl3ZBFdumGimjb64tXkw==",
+  "success": true,
+  "projectFilePath": "E:\\Alif_Projects\\Alif_HomeWorks\\HW-14-02-21\\ConThread\\Threads.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

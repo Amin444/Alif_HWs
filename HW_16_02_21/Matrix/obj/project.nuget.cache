@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/N/D7h2T0fUX11CFnFDFJCk6Upo0FgGVrQqKmYFhl6n+vSjSxY+Mk1aY8lHA6E0nenhPhUpg89ZiN42ibagC5A==",
+  "success": true,
+  "projectFilePath": "E:\\Alif_Projects\\Alif_HomeWorks\\HW_16_02_21\\Matrix\\Matrix.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
