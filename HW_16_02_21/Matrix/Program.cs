@@ -1,97 +1,104 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace Matrix
 {
-    class Program
+   class Program
     {
-        static void Main(string[] args)
+
+        static Random rand = new Random();
+
+        static char AsciiCharacter
         {
-          List<shifts> mylist=new List<shifts>();
-            while(true)
+            get
             {
-                
-                Task.Run(
-                ()=>
-                {
-                    for (int i = 0; i < new Random().Next(100, 1000); i++)
-                    {
-                        mylist.Add(new shifts()
-                        {
-                            left=new Random().Next(100),
-                            Top = new Random().Next(3,8),
-                            simvol=letters(),
-                        }
-                        
-                        );
-                    }
-                }
-                ).Wait();
-
-                     Task.Run(() =>
-                {
-                    lettersRain(mylist);
-                    mylist.Clear();
-
-                }).Wait();
-
+                int t = rand.Next(10);
+                if (t <= 2)
+                    return (char)('0' + rand.Next(10));
+               
+                    return (char)(rand.Next(0, 50));
             }
         }
-         
-        public static char[] letters()
-        {
-            string letters="";
-            for (char i = 'A'; i <= 'z'; i++)
-            {
-             if ((char)new Random().Next(0,4)==1)
-             {
-                 letters+=i;
-             }   
-            }
-            return letters.ToCharArray();
-        }
 
-       public static void lettersRain(List<shifts> Rain)
-       {
-            int count=0;
-            for (int i = 0; i < 10; i++)
-            {
-                foreach(var A in Rain )
-              {
-                    Console.CursorTop = i + A.Top;
-                foreach (var item in A.simvol)
-                {
-                    Console.CursorLeft=A.left;
-                    if (count==A.simvol.Length-1)
-                    {
-                        Console.ForegroundColor=ConsoleColor.White;
-                    }
-                    else if (count==A.simvol.Length-2)
-                    {
-                     Console.BackgroundColor=ConsoleColor.Green;   
-                    }
-                    else
-                    {
-                    Console.BackgroundColor=ConsoleColor.DarkGreen;
-                    }
-                    System.Console.WriteLine(item);
-                    count++;
-                }
-                count =0;
-             }
-            }
-            Thread.Sleep(1000);
-            Console.Clear();
-       }
+        static void Main()
+        {
+           geen();
         
-    }
+            Console.CursorVisible = false;
 
-    class shifts
-     {
-         public int left{get;set;}
-         public int Top{get;set;} 
-         public char[] simvol { get; set; }
-     }
+            int width, height;
+            int[] y;
+
+            Initialize(out width, out height, out y);
+
+
+            while (true)
+                    NewStrings(width, height, y);
+        }
+
+
+        private static void NewStrings(int width, int height, int[] y)
+        {
+            int x;
+
+            for (x = 0; x < width; ++x)
+            {
+               white();
+                Console.SetCursorPosition(x, y[x]);
+                Console.Write(AsciiCharacter);
+
+               DarkGreen();
+                int temp = y[x] - 2;
+                Console.SetCursorPosition(x, inScreenYPosition(temp, height));
+                Console.Write(AsciiCharacter);
+
+                int temp1 = y[x] - 20;
+                Console.SetCursorPosition(x, inScreenYPosition(temp1, height));
+                Console.Write(' ');
+
+                y[x] = inScreenYPosition(y[x] + 1, height);
+            }
+
+            if (Console.KeyAvailable)
+            {
+                if (Console.ReadKey().Key == ConsoleKey.F5)
+                    Initialize(out width, out height, out y);
+                if (Console.ReadKey().Key == ConsoleKey.F11)
+                    System.Threading.Thread.Sleep(1);
+            }
+
+        }
+
+        public static int inScreenYPosition(int yPosition, int height)
+        {
+            if (yPosition < 0)
+                return yPosition + height;
+            else if (yPosition < height)
+                return yPosition;
+            else
+                return 0;
+        }
+
+        private static void Initialize(out int width, out int height, out int[] y)
+        {
+            height = Console.WindowHeight;
+            width = Console.WindowWidth - 1;
+
+            y = new int[width];
+
+            Console.Clear();
+            for (int x = 0; x < width; ++x)
+            {
+                y[x] = rand.Next(height);
+            }
+        }
+
+            public static void geen(){var green = Console.ForegroundColor=ConsoleColor.Green;}
+            public static void white(){var white = Console.ForegroundColor=ConsoleColor.White;}
+            public static void DarkGreen(){var white = Console.ForegroundColor=ConsoleColor.DarkGreen;}
+                
+              
+          
+
+
+    }
 }
