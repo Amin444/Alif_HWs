@@ -1,0 +1,13 @@
+E:\Alif_Projects\Alif_HomeWorks\HW_18_02_21\NewMateix\obj\Debug\netcoreapp3.1\NewMateix.csprojAssemblyReference.cache
+E:\Alif_Projects\Alif_HomeWorks\HW_18_02_21\NewMateix\obj\Debug\netcoreapp3.1\NewMateix.AssemblyInfoInputs.cache
+E:\Alif_Projects\Alif_HomeWorks\HW_18_02_21\NewMateix\obj\Debug\netcoreapp3.1\NewMateix.AssemblyInfo.cs
+E:\Alif_Projects\Alif_HomeWorks\HW_18_02_21\NewMateix\obj\Debug\netcoreapp3.1\NewMateix.csproj.CoreCompileInputs.cache
+E:\Alif_Projects\Alif_HomeWorks\HW_18_02_21\NewMateix\bin\Debug\netcoreapp3.1\NewMateix.exe
+E:\Alif_Projects\Alif_HomeWorks\HW_18_02_21\NewMateix\bin\Debug\netcoreapp3.1\NewMateix.deps.json
+E:\Alif_Projects\Alif_HomeWorks\HW_18_02_21\NewMateix\bin\Debug\netcoreapp3.1\NewMateix.runtimeconfig.json
+E:\Alif_Projects\Alif_HomeWorks\HW_18_02_21\NewMateix\bin\Debug\netcoreapp3.1\NewMateix.runtimeconfig.dev.json
+E:\Alif_Projects\Alif_HomeWorks\HW_18_02_21\NewMateix\bin\Debug\netcoreapp3.1\NewMateix.dll
+E:\Alif_Projects\Alif_HomeWorks\HW_18_02_21\NewMateix\bin\Debug\netcoreapp3.1\NewMateix.pdb
+E:\Alif_Projects\Alif_HomeWorks\HW_18_02_21\NewMateix\obj\Debug\netcoreapp3.1\NewMateix.dll
+E:\Alif_Projects\Alif_HomeWorks\HW_18_02_21\NewMateix\obj\Debug\netcoreapp3.1\NewMateix.pdb
+E:\Alif_Projects\Alif_HomeWorks\HW_18_02_21\NewMateix\obj\Debug\netcoreapp3.1\NewMateix.genruntimeconfig.cache

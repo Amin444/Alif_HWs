@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "kBwrZmfniPwWzo5ZTKqdVDFN1xGjdEMoTnYp7K8oQmQ582IcB/UfRDnw0iPrVwT+/JlqcCPrY8/vpJNJa1umOA==",
+  "success": true,
+  "projectFilePath": "E:\\Alif_Projects\\Alif_HomeWorks\\HW_18_02_21\\NewMateix\\NewMateix.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
